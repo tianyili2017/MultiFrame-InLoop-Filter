@@ -86,9 +86,12 @@ Note: Steps 4~7 need to be run multiples times, for obtaining both MIF-Net and I
 8. Path into "Data_Generation_and_Training/Models/" to find the model files. 
 
    Here, one model corresponds to three model files, for example:
+   
+   ```
    model_20200530_200942_10000_qp22_rec_nof_densenet.dat.data-00000-of-00001
    model_20200530_200942_10000_qp22_rec_nof_densenet.dat.index
    model_20200530_200942_10000_qp22_rec_nof_densenet.dat.meta
+   ```
 
 # 2. Test codes
 
