@@ -9,19 +9,21 @@ Folder <font color="#0040c0">*HM-16.5_Data*</font> and <font color="#0040c0">*Da
 
 1. Generate pre-required files using "*.bin" files in the HIF Database.
 
-  Path into "HM-16.5_exdata/bin/vc10/x64/Release/" and run "TAppDecoder.exe" (for Windows).
+        Path into "HM-16.5_exdata/bin/vc10/x64/Release/" and run "TAppDecoder.exe" (for Windows).
 
-  Or, path into "HM-16.5_exdata/bin/" and run "TAppDecoderStatic" (for Linux). 
-  Here, the command file "run.bat" or "run.sh"  is an example to transfer 16 "*.bin" files into pre-required files, containing reconstructed YUV files ("rec.yuv", "rec_nof.yuv"), CU and TU files ("Info_CUDepth.dat", "Info_TUDepth.dat").
+        Or, path into "HM-16.5_exdata/bin/" and run "TAppDecoderStatic" (for Linux). 
+	
+        Here, the command file "run.bat" or "run.sh"  is an example to transfer 16 "*.bin" files into pre-required files, containing reconstructed YUV files ("rec.yuv", "rec_nof.yuv"), CU and TU files ("Info_CUDepth.dat", "Info_TUDepth.dat").
 
 2. Create folders to store these pre-required files and then rename them.
+
 	Formats: 
 	
-   ```
-   Info_(mode)_(video name)_qp(QP value)_nf(number of frames)_CUDepth.dat
+        ```
+        Info_(mode)_(video name)_qp(QP value)_nf(number of frames)_CUDepth.dat
 	Info_(mode)_(video name)_qp(QP value)_nf(number of frames)_TUDepth.dat
 	rec_(mode)_(video name)_qp(QP value)_nf(number of frames).yuv
-   rec_nof_(mode)_(video name)_qp(QP value)_nf(number of frames).yuv
+        rec_nof_(mode)_(video name)_qp(QP value)_nf(number of frames).yuv
 	```
 	
 	Examples: 
@@ -44,7 +46,6 @@ Folder <font color="#0040c0">*HM-16.5_Data*</font> and <font color="#0040c0">*Da
 	```
 	rec_nof_RA_BasketballPass_416x240_50_qp32_nf500.yuv
 	```
-	
 	
 	Note: the results after Step 2 can be downloaded at "https://pan.baidu.com/s/1h-3xR3dbIZPos5bNaZoEYA" (code: n170) for demo use, containing the data for 4 YUV files.
 
