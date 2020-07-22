@@ -1,11 +1,15 @@
 # MultiFrame-InLoop-Filter
 Source codes for training and evaluating the multi-frame in-loop filter (MIF) approach. [1]
 
+Download: https://github.com/tianyili2017/HIF-Database#2-data-access
+
 # 1. Training codes
+
+Folder <font color="#0040c0">*HM-16.5_Data*</font> and <font color="#0040c0">*Data_Generation_and_Training*</font> contain the training codes for the proposed MIF approach.
 
 # 2. Test codes
 
-The aforementioned folder <font color="#0040c0">*HM-16.5_MIF-Net*</font> contains both encoder and decoder for the proposed MIF approach. All source codes are stored in its sub-folder <font color="#0040c0">*HM-16.5_MIF-Net/source*</font>, and the compiled executable files are in <font color="#0040c0">*HM-16.5_MIF-Net/bin*</font>. 
+Folder <font color="#0040c0">*HM-16.5_MIF-Net*</font> contains both encoder and decoder for the MIF approach. All source codes are stored in its sub-folder <font color="#0040c0">*HM-16.5_MIF-Net/source*</font>, and the compiled executable files are in <font color="#0040c0">*HM-16.5_MIF-Net/bin*</font>. 
 
 In total, eight C++ files have been modified, as below.
 
