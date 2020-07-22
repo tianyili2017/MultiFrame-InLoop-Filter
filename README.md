@@ -7,7 +7,7 @@ Dropbox:
 
 https://www.dropbox.com/sh/cpa4pca3jhvjhn7/AABrw4Oq4ZzvBYTyOziJispra?dl=0
 
-or Baidu Cloud Disk:
+Baidu Cloud Disk:
 
 https://pan.baidu.com/s/10uVms2eHP9CIEhBke6dB5A
 
