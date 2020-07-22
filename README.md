@@ -8,12 +8,12 @@ Download: https://github.com/tianyili2017/HIF-Database#2-data-access
 Folder <font color="#0040c0">*HM-16.5_Data*</font> and <font color="#0040c0">*Data_Generation_and_Training*</font> contain the training codes for the proposed MIF approach.
 
 1. Generate pre-required files using "*.bin" files in the HIF Database.
-
-        Path into "HM-16.5_exdata/bin/vc10/x64/Release/" and run "TAppDecoder.exe" (for Windows).
-
-        Or, path into "HM-16.5_exdata/bin/" and run "TAppDecoderStatic" (for Linux). 
 	
-        Here, the command file "run.bat" or "run.sh"  is an example to transfer 16 "*.bin" files into pre-required files, containing reconstructed YUV files ("rec.yuv", "rec_nof.yuv"), CU and TU files ("Info_CUDepth.dat", "Info_TUDepth.dat").
+	Path into "HM-16.5_exdata/bin/vc10/x64/Release/" and run "TAppDecoder.exe" (for Windows).
+	
+	Or, path into "HM-16.5_exdata/bin/" and run "TAppDecoderStatic" (for Linux). 
+	
+	Here, the command file "run.bat" or "run.sh"  is an example to transfer 16 "*.bin" files into pre-required files, containing reconstructed YUV files ("rec.yuv", "rec_nof.yuv"), CU and TU files ("Info_CUDepth.dat", "Info_TUDepth.dat").
 
 2. Create folders to store these pre-required files and then rename them.
 
