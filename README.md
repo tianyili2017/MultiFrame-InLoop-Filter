@@ -1,7 +1,15 @@
 # MultiFrame-InLoop-Filter
 Source codes for training and evaluating the multi-frame in-loop filter (MIF) approach. [1]
 
-Download: https://github.com/tianyili2017/HIF-Database#2-data-access
+## Downloadable links (same as the HIF Database): 
+
+Dropbox:
+
+https://www.dropbox.com/sh/cpa4pca3jhvjhn7/AABrw4Oq4ZzvBYTyOziJispra?dl=0
+
+or Baidu Cloud Disk:
+
+https://pan.baidu.com/s/10uVms2eHP9CIEhBke6dB5A
 
 # 1. Training codes
 
@@ -19,11 +27,11 @@ Folder <font color="#0040c0">*HM-16.5_Data*</font> and <font color="#0040c0">*Da
 
 	Formats: 
 	
-        ```
-        Info_(mode)_(video name)_qp(QP value)_nf(number of frames)_CUDepth.dat
+	```
+	Info_(mode)_(video name)_qp(QP value)_nf(number of frames)_CUDepth.dat
 	Info_(mode)_(video name)_qp(QP value)_nf(number of frames)_TUDepth.dat
 	rec_(mode)_(video name)_qp(QP value)_nf(number of frames).yuv
-        rec_nof_(mode)_(video name)_qp(QP value)_nf(number of frames).yuv
+	rec_nof_(mode)_(video name)_qp(QP value)_nf(number of frames).yuv
 	```
 	
 	Examples: 
